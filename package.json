@@ -1,8 +1,9 @@
 {
   "name": "react-seed",
   "version": "1.0.0",
-  "main": "index.js",
+  "author": "Joaquin Lobo",
   "license": "MIT",
+  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",

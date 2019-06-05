@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/jloborod/react-seed/badge.svg)](https://snyk.io/test/github/jloborod/react-seed)
+
 # React Seed
 
 This seed project uses the following technologies:

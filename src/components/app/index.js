@@ -1,6 +1,8 @@
 import React from 'react';
 import { hot } from 'react-hot-loader/root';
 
-const App = () => <div className='app'>Hello there!</div>;
+import Form from "../Form";
+
+const App = () => <div className='app'><Form /></div>;
 
 export default hot(App);

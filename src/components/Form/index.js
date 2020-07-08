@@ -3,15 +3,9 @@ import React from "react";
 import Box from "../Box";
 
 class Form extends React.Component {
-  constructor(props) {
-    super(props);
+  state = {};
 
-    this.state = {};
-
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange({ target: { name, value } }) {
+  handleChange = ({ target: { name, value } }) => {
     this.setState({ [name]: value });
   }
 

@@ -11,9 +11,9 @@
     "test:watch": "jest --no-cache --watch --config=jest.config.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
     "@babel/register": "^7.4.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.7.1",
@@ -38,6 +38,7 @@
     "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {
+    "core-js": "^3.6.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }

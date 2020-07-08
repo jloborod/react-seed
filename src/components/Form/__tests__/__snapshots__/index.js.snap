@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> renders correctly 1`] = `
+<Box>
+  <Box>
+    <form>
+      <input
+        className="input"
+        name="name"
+        onChange={[Function]}
+        type="text"
+      />
+    </form>
+  </Box>
+  <Box>
+    Hello
+  </Box>
+</Box>
+`;
